@@ -1,0 +1,351 @@
+.logo {
+    color: #FFD700;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-family: "Playfair Display", serif;;
+}
+
+
+.bg-gray {
+    background: lightgray;
+    text-align: left;
+}
+
+.img-thumbnail {
+    width: 50%;
+}
+
+.remove-margin {
+    margin: 0%;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.bg-dark1 {
+    background-color: #121212 !important;
+    text-align: center;
+}
+
+.bg-dark2 {
+    background-color: #121212 !important;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+/* Home */
+
+#content-home {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 50px;
+    border-color: darkgrey;
+}
+
+#content-home1 {
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: darkgrey;
+}
+
+#intro {
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.img-thumbnail {
+    width: 300px !important; 
+}
+/*Navbar*/
+
+.navbar-dark {
+    background-color: black !important;
+}
+
+.remove-padding {
+    padding: 0%;
+}
+
+.nav-brand {
+    text-decoration: none;
+}
+
+.nav-brand img{
+    width: 200px;
+}
+
+.navbar {
+    border-bottom: #FFD700 0.5px solid;
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: #E6BE8A;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #daa520;
+    font-size: 1.4em;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*.nav-link {
+    color: gold;
+}
+    */
+
+
+#padleftright {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    border: #FFD700 2px solid;
+    background: #121212;
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: "Playfair Display", serif;
+}
+
+.button:hover {
+    color: #daa520;
+    background: #2c2c2c;
+    border: #daa520 solid;
+}
+
+#button {
+    text-align: center;
+}
+
+#logo {
+    width: 450px;
+}
+
+#logo:hover {
+    color: #daa520;
+}
+
+
+/* Below Are For Art Catergory */
+
+#artcat {
+    color: #E6BE8A;
+    background: #2c2c2c;
+    border-radius: 10px;
+    border: #2c2c2c 8px solid;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+#artcat:hover {
+    color: #daa520;
+}
+
+/* Below Are For Dropdown item */
+
+.dropdown-item {
+    color: #E6BE8A;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    background: #121212 !important;
+    border: #2c2c2c 0.2px solid;
+}
+
+.dropdown-item:hover {
+    background-color: #121212;
+    color: #daa520;
+}
+/* Below Are For Text */
+
+#text-right {
+    text-align: right;
+}
+
+/* For Carousel */
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-caption {
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.d-block {
+    filter: brightness(50%);
+   height: 200%;  
+}
+
+@media (max-width: 1000px) {
+    .d-block {
+        height: 100%;
+    }
+}
+
+.carousel-item1 {
+    height: 900px;
+}
+
+#art-context {
+    text-align: left;
+    color: #E6BE8A;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+/* For Card */
+
+.card {
+    background-color: #121212;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: #2c2c2c;
+    size: 1.5em;
+}
+
+.card-text {
+    padding: 2px;
+    font-family: "Poppins", serif;
+}
+
+.card-title {
+    font-size: 32;
+    font-family: "Playfair Display", serif;
+}
+
+.card-title1 {
+    font-size: 32;
+    font-family: "Playfair Display", serif;
+}
+
+.card-img-top {
+    padding-bottom: 5px;
+}
+
+.btn {
+    background: #121212;
+    border: none;
+}
+
+.btn:hover{
+    background: #2c2c2c;
+    border: none;
+}
+
+#smallbtn {
+    width: 400px;
+}
+/* For Art */
+.art {
+    width: 450px;
+    text-align: right;
+}
+
+#artname {
+    font-family: "Playfair Display", serif;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+#artdes {
+    font-family: "Poppins", serif;
+
+}
+
+.artist {
+    text-align: right;
+    width: 350px;
+    border-radius: 30px;
+}
+
+#artistdes {
+    color: #FFD700;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+}
+
+#artdes1 {
+    font-family: "Poppins", serif;
+    padding-right: 10px;
+}
+
+.card-title-p-2 img{
+    width: 100%;
+}
+
+
+
+/* For Footer */
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 5px;
+    font-family: "Poppins", serif;
+    color: #E6BE8A !important;
+}
+
+.tarlogo {
+    width: 200px;
+    text-align: right;
+}
+
+/* For Orientation */
+
+#Left {
+    text-align: left;
+}
+
+#Center {
+    text-align: center;
+}
+
+#Right {
+    text-align: right;
+}
+
+/* For font */
+
+#poppins {
+    font-family: "Poppins", serif !important;
+}
+
+#playfair {
+    font-family: "Playfair Display", serif !important;
+}
+
+#playfair1 {
+    font-family: "Playfair Display", serif !important;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+#shadow {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.514) !important;
+}
